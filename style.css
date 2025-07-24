@@ -647,3 +647,8 @@ html{
   }
 }
 
+@media (max-width: 768px) {
+  .logo {
+    transform: translateY(1px); /* thoda neeche shift */
+  }
+}
