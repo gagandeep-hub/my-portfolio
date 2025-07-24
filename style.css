@@ -51,15 +51,17 @@ section{
     color: var(--bg-color);
     font-family: 'luckiest guy', cursive;
   letter-spacing: 2px;
-
- font-weight: 700;
+font-weight: 500;
     cursor: pointer;
     transition:0.3s ease;
+    align-items: center;
 }
 .logo .name{
     color: whitesmoke;
         font-family: 'luckiest guy', cursive;
   letter-spacing: 2px;
+  font-weight: 500;
+  align-items: center;
 }
 .logo:hover{
     transform: scale(1.05);
@@ -616,7 +618,9 @@ margin-top: 4rem;
 html{
     font-size: 50%;
 }
-
+.logo{
+    font-size: 2.3rem;
+}
 }
 
 
