@@ -627,7 +627,7 @@ html{
 
 
 
-@media (max-width: 617px) {
+@media (max-width: 768px) {
   .skills-container {
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
     gap: 1.5rem;
@@ -650,5 +650,6 @@ html{
 @media (max-width: 768px) {
   .logo {
     transform: translateY(2px); /* thoda neeche shift */
+
   }
 }
