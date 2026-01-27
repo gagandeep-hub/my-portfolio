@@ -248,11 +248,35 @@ img {
 }
 
 .hero-title {
-    font-size: 4rem;
-    line-height: 1.1;
-    font-weight: 800;
     margin-bottom: 1.5rem;
-    letter-spacing: -1px;
+}
+
+.hero-greeting {
+    display: block;
+    font-size: 1.75rem;
+    font-weight: 500;
+    color: var(--text-secondary);
+    margin-bottom: 0.5rem;
+    letter-spacing: -0.5px;
+}
+
+.hero-name-block {
+    display: block;
+    font-size: 4.5rem;
+    font-weight: 800;
+    color: var(--text-primary);
+    line-height: 1.1;
+    letter-spacing: -2px;
+    margin-bottom: 1rem;
+}
+
+.hero-role {
+    display: block;
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    letter-spacing: -0.5px;
+    opacity: 0.9;
 }
 
 .hero-description {
@@ -718,8 +742,16 @@ img {
         padding: 0 1.5rem;
     }
 
-    .hero-title {
-        font-size: 3rem;
+    .hero-greeting {
+        font-size: 1.4rem;
+    }
+
+    .hero-name-block {
+        font-size: 3.5rem;
+    }
+
+    .hero-role {
+        font-size: 1.75rem;
     }
 
     .hero-wrapper {
@@ -776,8 +808,18 @@ img {
         margin-bottom: 1rem;
     }
 
-    .hero-title {
-        font-size: 2.5rem;
+    .hero-greeting {
+        font-size: 1.25rem;
+        margin-bottom: 0.25rem;
+    }
+
+    .hero-name-block {
+        font-size: 2.75rem;
+        margin-bottom: 0.75rem;
+    }
+
+    .hero-role {
+        font-size: 1.35rem;
     }
 
     .hero-description {
@@ -873,8 +915,16 @@ img {
 
 /* Small Mobile */
 @media (max-width: 480px) {
-    .hero-title {
-        font-size: 2rem;
+    .hero-greeting {
+        font-size: 1.1rem;
+    }
+
+    .hero-name-block {
+        font-size: 2.25rem;
+    }
+
+    .hero-role {
+        font-size: 1.15rem;
     }
 
     .btn-primary {
